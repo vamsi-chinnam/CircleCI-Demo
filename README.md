@@ -6,7 +6,7 @@ You can use this repository as a base for setting up your own continuous integra
 
 This repository contains build scripts (located in the `build/` folder) and an example `config.yml` file in the `.circleci/` folder to get you started
 
-## Getting Started
+## Getting Started..
 
 1. You first need to create a certificate and key to authenticate with. To do this you can run the script in `build/generate-keys.sh`
 
