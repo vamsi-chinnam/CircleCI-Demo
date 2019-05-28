@@ -16,7 +16,7 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>MySampleApp</label>
-    <license>Force.com - Free</license>
+    <license>Salesforce</license>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
