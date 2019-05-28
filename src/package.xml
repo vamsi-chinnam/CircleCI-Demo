@@ -20,25 +20,5 @@
         <members>*</members>
         <name>ApexTrigger</name>
     </types>
-<<<<<<< HEAD
-   <!-- <types>
-    <members>MySample</members>
-    <name>CustomApplication</name>
-   </types>
-   <types>
-        <members>Channel__c</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>FlexiPage</name>
-    </types>
-    <types>
-     <members>*</members>
-     <name>PermissionSet</name>
-    </types>-->
-=======
-    
->>>>>>> scratch2
     <version>39.0</version>
 </Package>
