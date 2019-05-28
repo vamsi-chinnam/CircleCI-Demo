@@ -52,21 +52,21 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Name__c</fullName>
+        <fullName>Namespace_Prefix__c</fullName>
         <externalId>false</externalId>
-        <label>Name</label>
+        <label>Namespace Prefix</label>
         <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Seller</label>
+    <label>Sample</label>
     <nameField>
-        <label>Seller ID</label>
+        <label>Sample Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Sellers</pluralLabel>
+    <pluralLabel>Samples</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
