@@ -39,6 +39,7 @@ workflows:
             branches:
               ignore:
                 - master
+                - scratch1
                 - scratch2
       - deploy-prod:
           filters:
