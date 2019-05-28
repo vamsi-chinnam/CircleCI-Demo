@@ -48,7 +48,7 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
@@ -61,36 +61,12 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-<<<<<<< HEAD:mdAPIZip/unpackaged/objects/Channel__c.object
-    <fields>
-        <fullName>Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Type</label>
-        <length>100</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>Channel</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
-    <nameField>
-        <label>Channel Id</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Channels</pluralLabel>
-=======
     <label>Sample</label>
     <nameField>
         <label>Sample Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Samples</pluralLabel>
->>>>>>> scratch2:mdAPIZip/unpackaged/objects/Sample__c.object
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
