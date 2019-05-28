@@ -20,7 +20,7 @@
         <members>*</members>
         <name>ApexTrigger</name>
     </types>
-    <types>
+   <!-- <types>
     <members>MySample</members>
     <name>CustomApplication</name>
    </types>
@@ -35,6 +35,6 @@
     <types>
      <members>*</members>
      <name>PermissionSet</name>
-    </types>
+    </types>-->
     <version>39.0</version>
 </Package>
