@@ -17,24 +17,8 @@
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>MySample</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
         <members>*</members>
         <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Channel__c</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>FlexiPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>PermissionSet</name>
     </types>
     <version>39.0</version>
 </Package>
