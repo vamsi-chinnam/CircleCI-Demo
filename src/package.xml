@@ -20,6 +20,7 @@
         <members>*</members>
         <name>ApexTrigger</name>
     </types>
+<<<<<<< HEAD
    <!-- <types>
     <members>MySample</members>
     <name>CustomApplication</name>
@@ -36,5 +37,8 @@
      <members>*</members>
      <name>PermissionSet</name>
     </types>-->
+=======
+    
+>>>>>>> scratch2
     <version>39.0</version>
 </Package>
