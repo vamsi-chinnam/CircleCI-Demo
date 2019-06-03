@@ -16,7 +16,7 @@ jobs:
           command: . build/test.sh
       - store_test_results:
           path: test-results
-  deploy-qat:
+  deploy-qa:
     docker:
     - image: circleci/node:latest
     steps:
@@ -25,11 +25,11 @@ jobs:
           name: Install Dependencies
           command: . build/install.sh
       - run:
-          name: Login to QAT System
-          command: . build/setup-qat.sh
+          name: Login to QA System
+          command: . build/setup-qa.sh
       - run:
-          name: Deploy to QAT
-          command: . build/deploy-qat.sh
+          name: Deploy to QA System
+          command: . build/deploy-qa.sh
   deploy-prod:
     docker:
     - image: circleci/node:latest
@@ -56,7 +56,7 @@ workflows:
                 - master
                 - scratch2
                 - scratch3
-      - deploy-qat:
+      - deploy-qa:
           filters:
             branches:
               only:
