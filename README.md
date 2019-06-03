@@ -1,6 +1,6 @@
 # Continuous Integration with GitHub, SFDX and CircleCI ...Easier than you think!
 
-I hope you enjoyed my talk at Dreamforce 2019!
+I hope you enjoyed my talk at Dreamforce 2019...!
 
 You can use this repository as a base for setting up your own continuous integration workflow!
 
