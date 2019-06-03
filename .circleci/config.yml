@@ -54,13 +54,14 @@ workflows:
             branches:
               ignore:
                 - master
-                - scratch2
-                - scratch3
+                - Dev1
+                - Dev2
+                - QA
       - deploy-qa:
           filters:
             branches:
               only:
-                - scratch3
+                - QA
       - deploy-prod:
           filters:
             branches:
